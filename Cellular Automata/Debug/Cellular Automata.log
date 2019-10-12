@@ -1,0 +1,13 @@
+﻿  CellularAutomata.cpp
+c1xx : warning C4199: two-phase name lookup is not supported for C++/CLI, C++/CX, or OpenMP; use /Zc:twoPhase-
+c:\users\nick\source\repos\cellular automata\cellular automata\cellularautomata.cpp(176): warning C4244: 'argument': conversion from '__int64' to 'DWORD', possible loss of data
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\utility(234): warning C4244: 'initializing': conversion from 'int' to 'unsigned short', possible loss of data
+  c:\users\nick\source\repos\cellular automata\cellular automata\cellularautomata.cpp(36): note: see reference to function template instantiation 'std::pair<bool,unsigned short>::pair<bool,int,0>(std::pair<bool,int> &&) noexcept' being compiled
+  c:\users\nick\source\repos\cellular automata\cellular automata\cellularautomata.cpp(36): note: see reference to function template instantiation 'std::pair<bool,unsigned short>::pair<bool,int,0>(std::pair<bool,int> &&) noexcept' being compiled
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\utility(260): warning C4244: '=': conversion from 'int' to 'unsigned short', possible loss of data
+  c:\users\nick\source\repos\cellular automata\cellular automata\cellauto.h(134): note: see reference to function template instantiation 'std::pair<bool,unsigned short> &std::pair<bool,unsigned short>::operator =<bool,int>(std::pair<bool,int> &&)' being compiled
+  c:\users\nick\source\repos\cellular automata\cellular automata\cellauto.h(134): note: see reference to function template instantiation 'std::pair<bool,unsigned short> &std::pair<bool,unsigned short>::operator =<bool,int>(std::pair<bool,int> &&)' being compiled
+  c:\users\nick\source\repos\cellular automata\cellular automata\cellauto.h(82): note: while compiling class template member function 'void CellularAutomata<StandardCell>::apply_rule_gol(std::array<std::array<std::pair<bool,unsigned short>,100>,79> &,const std::array<std::array<std::pair<bool,unsigned short>,100>,79> &)'
+  c:\users\nick\source\repos\cellular automata\cellular automata\cellularautomata.cpp(173): note: see reference to function template instantiation 'void CellularAutomata<StandardCell>::apply_rule_gol(std::array<std::array<std::pair<bool,unsigned short>,100>,79> &,const std::array<std::array<std::pair<bool,unsigned short>,100>,79> &)' being compiled
+  c:\users\nick\source\repos\cellular automata\cellular automata\cellularautomata.cpp(171): note: see reference to class template instantiation 'CellularAutomata<StandardCell>' being compiled
+  Cellular Automata.vcxproj -> C:\Users\Nick\Source\repos\Cellular Automata\Debug\Cellular Automata.exe

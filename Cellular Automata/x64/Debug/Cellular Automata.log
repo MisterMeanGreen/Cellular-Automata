@@ -1,0 +1,3 @@
+﻿  CellularAutomata.cpp
+c:\users\nick\source\repos\cellular automata\cellular automata\cellularautomata.cpp(168): warning C4244: 'argument': conversion from '__int64' to 'DWORD', possible loss of data
+  Cellular Automata.vcxproj -> C:\Users\Nick\Source\repos\Cellular Automata\x64\Debug\Cellular Automata.exe
